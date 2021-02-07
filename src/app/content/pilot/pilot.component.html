@@ -1,0 +1,11 @@
+<form method="post" action="#" id="upload-holder">
+  <div class="form-group files" id="image-holder">
+    <label id="image-label">Upload Your File </label>
+    <input type="file" class="form-control" multiple="" (change)="uploadFiles($event)">
+  </div>
+</form>
+<div class="progress" id="progress-holder">
+  <div id="analyse-bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+      aria-valuemin="0" aria-valuemax="100" ></div>
+</div>
+

@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-6" id="pilot">
+        <app-pilot (imageUploadEmitter)="updateImg($event)" (showContentEmitter)="visibility($event)"></app-pilot>
+    </div>
+    <div class="col-6" id="matter">
+        <app-matter [showImage]="showImage" [celebImage]="imageData" [results]="results"></app-matter>
+    </div>
+</div>
