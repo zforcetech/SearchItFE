@@ -16,25 +16,5 @@ export class MatterComponent implements OnInit {
   @Input() public celebImage: string;
   @Input() public showImage: boolean;
   @Input("results") public celebs: Celebrity[];
-
-  // startProgress() {
-  //   var i=0;
-  //   if (i == 0) {
-  //     i = 1;
-  //     var elem = document.getElementById("analyse-bar");
-  //     var width = 0;
-  //     var id = setInterval(frame, 10);
-  //     function frame() {
-  //       if (width >= 100) {
-  //         clearInterval(id);
-  //         i = 0;
-  //       } else {
-  //         width++;
-  //         elem.style.width = width + "%";
-  //         elem.innerHTML = width + "%";
-  //       }
-  //     }
-  //   }
-  // }
-
+@Input()public defaultText: string;
 }

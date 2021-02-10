@@ -17,18 +17,20 @@ export class ContentComponent implements OnInit {
   public imageData: string;
   private dataService: DataServiceService;
   public results: Celebrity[];
+  public  defaultText: string ="Results will appear here.";
+
 
   ngOnInit(): void {
   }
 
   updateImg(imageData: string) {
+    this.imageData ="Analyzing..."
     this.showImage=false;
     this.imageData=imageData;
     this.dataService.analyzeImage(imageData).subscribe(data=>
       {
         this.showImage=true;
         this.results=data;
-
       });
 
   }
