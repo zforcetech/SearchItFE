@@ -10,7 +10,7 @@
             <h4 class="mb-1">{{celeb.name}}</h4>
             <a class="text-muted" href="">Imdb</a>
           </div>
-          <a [href]="cburl" *ngFor="let cburl of celeb.infoUrls" target="_blank"><small class="text-muted">{{cburl}}</small></a>
+          <a [href]="'https://'+cburl" *ngFor="let cburl of celeb.infoUrls" target="_blank"><small class="text-muted">{{cburl}}</small></a>
           <hr>
           <small class="text-muted">confidence = {{celeb.confidence}}</small>
         </div>
