@@ -24,7 +24,7 @@ export class ContentComponent implements OnInit {
   }
 
   updateImg(imageData: string) {
-    this.imageData ="Analyzing..."
+    this.defaultText ="Analyzing..."
     this.showImage=false;
     this.imageData=imageData;
     this.dataService.analyzeImage(imageData).subscribe(data=>
