@@ -15,7 +15,7 @@ export class PilotComponent implements OnInit {
 
   constructor() { }
 
-  uploadFiles(event: Event) {
+  uploadFiles(event: any) {
     this.startProgress();
     var image: File = event.target.files[0];
     let reader = new FileReader();
@@ -53,6 +53,6 @@ export class PilotComponent implements OnInit {
       //   this.showContentEmitter.emit(true);
       // }
     }
-    
+
   }
 }

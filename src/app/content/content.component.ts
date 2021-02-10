@@ -9,12 +9,12 @@ import { DataServiceService } from '../service/data-service.service';
 })
 export class ContentComponent implements OnInit {
 
-  constructor(dataService: DataServiceService) { 
+  constructor(dataService: DataServiceService) {
     this.dataService = dataService;
   }
 
-  private showImage: boolean;
-  private imageData: string;
+  public showImage: boolean;
+  public imageData: string;
   private dataService: DataServiceService;
   public results: Celebrity[];
 
