@@ -24,8 +24,13 @@ export class ContentComponent implements OnInit {
   updateImg(imageData: string) {
     this.showImage=false;
     this.imageData=imageData;
-    this.dataService.analyzeImage(imageData).subscribe(data=>this.results=data);
-    this.showImage=true;
+    this.dataService.analyzeImage(imageData).subscribe(data=>
+      {
+        this.showImage=true;
+        this.results=data;
+
+      });
+
   }
 
   visibility(showImage: boolean) {
