@@ -22,9 +22,10 @@ export class ContentComponent implements OnInit {
   }
 
   updateImg(imageData: string) {
-    this.showImage=true;
+    this.showImage=false;
     this.imageData=imageData;
     this.dataService.analyzeImage(imageData).subscribe(data=>this.results=data);
+    this.showImage=true;
   }
 
   visibility(showImage: boolean) {
