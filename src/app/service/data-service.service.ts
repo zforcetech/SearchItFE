@@ -20,8 +20,8 @@ console.log("requesting");
 
     return this.http.post<Celebrity[]>(
       // "http://152.67.174.105:9090/api/demo",
-      //  "https://8080-d503f82a-f55f-4fdd-aa3b-e877f0416b1b.asia-southeast1.cloudshell.dev/api/demo",
-      "http://localhost:8080/api/demo",
+       "https://8080-d503f82a-f55f-4fdd-aa3b-e877f0416b1b.asia-southeast1.cloudshell.dev/api/demo",
+      // "http://localhost:8080/api/demo",
       base64result);
   }
 }
