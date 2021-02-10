@@ -17,11 +17,15 @@ export class PilotComponent implements OnInit {
 
   uploadFiles(event: any) {
     this.startProgress();
-// this.showContentEmitter.emit(false);
+    this.showContentEmitter.emit(false);
     var image: File = event.target.files[0];
     let reader = new FileReader();
     reader.readAsDataURL(image);
-    reader.onload = () => this.imageUploadEmitter.emit(reader.result as string);
+    reader.onload = () => {
+    this.showContentEmitter.emit(true);
+
+        this.imageUploadEmitter.emit(reader.result as string);
+    }
   }
 
   startProgress() {
