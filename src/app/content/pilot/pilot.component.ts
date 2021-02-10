@@ -17,6 +17,7 @@ export class PilotComponent implements OnInit {
 
   uploadFiles(event: any) {
     this.startProgress();
+// this.showContentEmitter.emit(false);
     var image: File = event.target.files[0];
     let reader = new FileReader();
     reader.readAsDataURL(image);
@@ -24,7 +25,7 @@ export class PilotComponent implements OnInit {
   }
 
   startProgress() {
-    this.showContentEmitter.emit(false);
+    // this.showContentEmitter.emit(false);
     var i=0;
     if (i == 0) {
       i = 1;
@@ -39,7 +40,7 @@ export class PilotComponent implements OnInit {
           elem.style.width = width + "%";
           elem.innerHTML = width + "%";
         }
-        this.showContentEmitter.emit(true);
+        // this.showContentEmitter.emit(true);
       }, 10);
       // function frame() {
       //   if (width >= 100) {
