@@ -22,9 +22,10 @@ export class PilotComponent implements OnInit {
     let reader = new FileReader();
     reader.readAsDataURL(image);
     reader.onload = () => {
-    this.showContentEmitter.emit(true);
 
         this.imageUploadEmitter.emit(reader.result as string);
+            this.showContentEmitter.emit(true);
+
     }
   }
 
