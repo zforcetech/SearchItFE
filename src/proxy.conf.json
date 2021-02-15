@@ -1,0 +1,8 @@
+{
+    "/api/demo": {
+        "target": "https://8080-d503f82a-f55f-4fdd-aa3b-e877f0416b1b.asia-southeast1.cloudshell.dev/api/demo",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin":true
+    }
+}
