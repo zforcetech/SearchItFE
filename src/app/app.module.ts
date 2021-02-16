@@ -8,7 +8,7 @@ import { MatterComponent } from './content/matter/matter.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule, APP_INITIALIZER } from '@angular/core';
 import { AuthService } from "./service/auth.service";
-import { KeycloakService } from 'keycloak-angular';
+import { KeycloakService, KeycloakAngularModule } from 'keycloak-angular';
 
 // function initializeKeycloak(keycloak: KeycloakService) {
 //   return () =>
@@ -39,9 +39,10 @@ import { KeycloakService } from 'keycloak-angular';
     BrowserModule,
     AppRoutingModule,
     MDBBootstrapModule.forRoot(),
-    HttpClientModule
+    HttpClientModule,
+    KeycloakAngularModule
   ],
-  providers: [
+  providers: [KeycloakService
 //     AuthService,
 // KeycloakService,
 //     {

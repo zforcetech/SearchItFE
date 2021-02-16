@@ -1,6 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Celebrity } from 'src/app/model/Celebrity';
 import { AuthService } from 'src/app/service/auth.service';
+import { KeycloakService } from 'keycloak-angular';
+
 
 @Component({
   selector: 'app-matter',
@@ -9,7 +11,7 @@ import { AuthService } from 'src/app/service/auth.service';
 })
 export class MatterComponent implements OnInit {
 
-  constructor(private auth: AuthService) {
+  constructor(private auth: KeycloakService) {
     this.auth =auth;
   }
 
@@ -23,8 +25,9 @@ export class MatterComponent implements OnInit {
 
 logout() {
 console.log(this.auth);
-
-this.auth.logout();
+console.log("in auth");
+// KeycloakService.auth.logoutUrl;
+this.auth.getKeycloakInstance().logout();
 }
 
 

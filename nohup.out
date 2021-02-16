@@ -79,3 +79,495 @@ main.js             | main  | 42.38 kB
 Build at: 2021-02-15T18:28:05.161Z - Hash: 58ee81afa68cf3d86acb - Time: 813ms
 
 ✔ Compiled successfully.
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names         |      Size
+vendor.js           | vendor        |   4.06 MB
+scripts.js          | scripts       | 232.36 kB
+styles.css          | styles        | 210.49 kB
+polyfills.js        | polyfills     | 141.29 kB
+main.js             | main          |  42.20 kB
+runtime.js          | runtime       |   6.15 kB
+
+| Initial Total |   4.68 MB
+
+Build at: 2021-02-16T07:26:16.780Z - Hash: 732858b5a95d7a1a19c6 - Time: 16691ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names  |      Size
+styles.css          | styles | 210.49 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T07:27:33.684Z - Hash: 3ff1f92c30b97b3ce6a6 - Time: 924ms
+
+Error: src/app/content/matter/matter.component.ts:28:11 - error TS1003: Identifier expected.
+
+28 this.auth.;
+             ~
+
+
+
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.20 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T07:27:36.952Z - Hash: b679b06a5d0f63f46a15 - Time: 953ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.20 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T07:27:38.228Z - Hash: 40afb02fb8ed6d0cf437 - Time: 660ms
+
+✔ Compiled successfully.
+    
+    Error: src/app/content/matter/matter.component.ts:28:11 - error TS2339: Property 'lo' does not exist on type 'KeycloakService'.
+    
+    28 this.auth.lo;
+                 ~~
+    
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.21 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T07:32:20.305Z - Hash: bd8302593c02f91dc158 - Time: 589ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.39 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T07:33:37.271Z - Hash: 80975384e13c0e2d8f12 - Time: 573ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.48 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T07:49:14.197Z - Hash: a85e7cd80aa24a00b897 - Time: 574ms
+
+✔ Compiled successfully.
+    
+    Error: src/app/content/matter/matter.component.ts:28:17 - error TS2339: Property 'auth' does not exist on type 'typeof KeycloakService'.
+    
+    28 KeycloakService.auth.logoutUrl;
+                       ~~~~
+    
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.48 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T07:49:16.477Z - Hash: 3ca72b00fcbc94240e03 - Time: 702ms
+
+✔ Compiled successfully.
+    
+    Error: src/app/content/matter/matter.component.ts:28:17 - error TS2339: Property 'auth' does not exist on type 'typeof KeycloakService'.
+    
+    28 KeycloakService.auth.logoutUrl;
+                       ~~~~
+    
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.48 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T07:49:30.873Z - Hash: a85e7cd80aa24a00b897 - Time: 510ms
+
+✔ Compiled successfully.
+    
+    Error: src/app/content/matter/matter.component.ts:28:17 - error TS2339: Property 'auth' does not exist on type 'typeof KeycloakService'.
+    
+    28 KeycloakService.auth.logoutUrl;
+                       ~~~~
+    
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.43 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T07:49:33.257Z - Hash: 9c82017eda8f49ab6ad9 - Time: 439ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.44 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T07:49:46.368Z - Hash: 5042f7bed6fafbde4b86 - Time: 407ms
+
+✔ Compiled successfully.
+    
+    Error: src/app/content/matter/matter.component.ts:29:11 - error TS2551: Property 'aulogout' does not exist on type 'KeycloakService'. Did you mean 'logout'?
+    
+    29 this.auth.aulogout();
+                 ~~~~~~~~
+    
+      node_modules/keycloak-angular/lib/core/services/keycloak.service.d.ts:23:5
+        23     logout(redirectUri?: string): Promise<void>;
+               ~~~~~~
+        'logout' is declared here.
+    
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.43 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T07:50:10.300Z - Hash: 9c82017eda8f49ab6ad9 - Time: 512ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.45 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:02:02.944Z - Hash: 7ab8c72d61aa9518cd6b - Time: 540ms
+
+✔ Compiled successfully.
+    
+    Error: src/app/content/matter/matter.component.ts:28:1 - error TS2304: Cannot find name 'co'.
+    
+    28 co
+       ~~
+    
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.45 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:02:06.449Z - Hash: db8f462d2aaa910d9518 - Time: 467ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.46 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:02:07.274Z - Hash: 8de5d542b27d99812b56 - Time: 477ms
+
+✔ Compiled successfully.
+    
+    Error: src/app/content/matter/matter.component.ts:28:9 - error TS2339: Property 'lo' does not exist on type 'Console'.
+    
+    28 console.lo
+               ~~
+    
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.46 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:02:08.545Z - Hash: 71d4ce4f700bec3f89e5 - Time: 481ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.46 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:02:09.443Z - Hash: 2f36497163ac3fc98f2e - Time: 400ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.46 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:02:10.184Z - Hash: 3b5ceae35042f69013e2 - Time: 463ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.46 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:02:11.386Z - Hash: 029344891244da2c6200 - Time: 509ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.46 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:02:12.272Z - Hash: 8d57d318276711d872c3 - Time: 384ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.47 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:02:13.576Z - Hash: 2648827196d85eeb0f97 - Time: 391ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+6 unchanged chunks
+
+Build at: 2021-02-16T08:02:15.124Z - Hash: 2648827196d85eeb0f97 - Time: 373ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+6 unchanged chunks
+
+Build at: 2021-02-16T08:03:57.086Z - Hash: 1c1501755af986de0012 - Time: 324ms
+
+Error: src/app/content/matter/matter.component.ts:31:1 - error TS1003: Identifier expected.
+
+31 }
+   ~
+
+
+
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.46 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:04:05.485Z - Hash: 1efc605e4b18739ac601 - Time: 422ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.47 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:04:09.089Z - Hash: 2648827196d85eeb0f97 - Time: 594ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+6 unchanged chunks
+
+Build at: 2021-02-16T08:04:10.941Z - Hash: 2648827196d85eeb0f97 - Time: 567ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.48 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:05:21.547Z - Hash: 0dfe73489ec4742e6f2d - Time: 539ms
+
+✔ Compiled successfully.
+    
+    Error: src/app/content/matter/matter.component.ts:30:11 - error TS2339: Property 'keycloakEvents$logout' does not exist on type 'KeycloakService'.
+    
+    30 this.auth.keycloakEvents$logout();
+                 ~~~~~~~~~~~~~~~~~~~~~
+    
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.48 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:05:24.105Z - Hash: 5414f103ec4ae45a3437 - Time: 780ms
+
+✔ Compiled successfully.
+    
+    Error: src/app/content/matter/matter.component.ts:30:27 - error TS2339: Property 'logout' does not exist on type 'Subject<KeycloakEvent>'.
+    
+    30 this.auth.keycloakEvents$.logout();
+                                 ~~~~~~
+    
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.48 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:07:15.798Z - Hash: 0dfe73489ec4742e6f2d - Time: 542ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.47 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:07:16.665Z - Hash: 2648827196d85eeb0f97 - Time: 629ms
+
+✔ Compiled successfully.
+    
+    Error: src/app/content/matter/matter.component.ts:30:11 - error TS2339: Property 'keycloakEvents$logout' does not exist on type 'KeycloakService'.
+    
+    30 this.auth.keycloakEvents$logout();
+                 ~~~~~~~~~~~~~~~~~~~~~
+    
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.47 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:07:21.822Z - Hash: f5cfb6fbefb58a7b2991 - Time: 483ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.48 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:07:22.885Z - Hash: b45b18aed4d6830b8deb - Time: 467ms
+
+✔ Compiled successfully.
+    
+    Error: src/app/content/matter/matter.component.ts:30:11 - error TS2339: Property 'getlogout' does not exist on type 'KeycloakService'.
+    
+    30 this.auth.getlogout();
+                 ~~~~~~~~~
+    
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+6 unchanged chunks
+
+Build at: 2021-02-16T08:07:24.991Z - Hash: 215a3a56b4348fa42f72 - Time: 335ms
+
+Error: src/app/content/matter/matter.component.ts:30:32 - error TS1005: ';' expected.
+
+30 this.auth.getKeycloakInstance()logout();
+                                  ~~~~~~
+
+
+
+    
+    Error: src/app/content/matter/matter.component.ts:30:11 - error TS2339: Property 'getKeycloakInstancelogout' does not exist on type 'KeycloakService'.
+    
+    30 this.auth.getKeycloakInstancelogout();
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.49 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-16T08:07:26.355Z - Hash: 03616f13eef12963eba6 - Time: 452ms
+
+✔ Compiled successfully.
+    
+    Error: src/app/content/matter/matter.component.ts:30:32 - error TS2663: Cannot find name 'logout'. Did you mean the instance member 'this.logout'?
+    
+    30 this.auth.getKeycloakInstance()logout();
+                                      ~~~~~~
+    
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names         |      Size
+vendor.js           | vendor        |   4.06 MB
+scripts.js          | scripts       | 232.36 kB
+styles.css          | styles        | 210.49 kB
+polyfills.js        | polyfills     | 141.29 kB
+main.js             | main          |  42.49 kB
+runtime.js          | runtime       |   6.15 kB
+
+| Initial Total |   4.68 MB
+
+Build at: 2021-02-16T09:34:34.895Z - Hash: 648d1c2d32c17c759227 - Time: 15561ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
