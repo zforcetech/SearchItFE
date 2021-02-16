@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Celebrity } from 'src/app/model/Celebrity';
+import { AuthService } from 'src/app/service/auth.service';
 
 @Component({
   selector: 'app-matter',
@@ -8,7 +9,9 @@ import { Celebrity } from 'src/app/model/Celebrity';
 })
 export class MatterComponent implements OnInit {
 
-  constructor() { }
+  constructor(private auth: AuthService) {
+    this.auth =auth;
+  }
 
   ngOnInit(): void {
   }
@@ -17,4 +20,12 @@ export class MatterComponent implements OnInit {
   @Input() public showImage: boolean;
   @Input("results") public celebs: Celebrity[];
 @Input()public defaultText: string;
+
+logout() {
+console.log(this.auth);
+
+this.auth.logout();
+}
+
+
 }

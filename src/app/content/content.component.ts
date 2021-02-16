@@ -38,4 +38,6 @@ export class ContentComponent implements OnInit {
   visibility(showImage: boolean) {
     this.showImage = showImage;
   }
+
+
 }

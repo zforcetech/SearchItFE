@@ -1,0 +1,81 @@
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names         |      Size
+vendor.js           | vendor        |   4.06 MB
+styles.css          | styles        | 210.49 kB
+scripts.js          | scripts       | 187.07 kB
+polyfills.js        | polyfills     | 141.29 kB
+main.js             | main          |  42.56 kB
+runtime.js          | runtime       |   6.15 kB
+
+| Initial Total |   4.63 MB
+
+Build at: 2021-02-15T18:20:09.130Z - Hash: c211f464fb6494c2e578 - Time: 14677ms
+
+Warning: /home/ankushadd123/SearchItFE/node_modules/keycloak-angular/__ivy_ngcc__/fesm2015/keycloak-angular.js depends on 'keycloak-js'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names  |      Size
+styles.css          | styles | 210.49 kB
+main.js             | main   |  42.54 kB
+
+4 unchanged chunks
+
+Build at: 2021-02-15T18:25:22.637Z - Hash: f016c37c78bce595871d - Time: 1413ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.56 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-15T18:27:04.839Z - Hash: fc8398363cee5ce34b64 - Time: 705ms
+
+✔ Compiled successfully.
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+6 unchanged chunks
+
+Build at: 2021-02-15T18:28:03.620Z - Hash: cb73d7d7a54a58e42583 - Time: 468ms
+
+Error: src/app/app.module.ts:26:5 - error TS1135: Argument expression expected.
+
+26     });
+       ~
+src/app/app.module.ts:26:6 - error TS1128: Declaration or statement expected.
+
+26     });
+        ~
+src/app/app.module.ts:27:1 - error TS1128: Declaration or statement expected.
+
+27 }
+   ~
+
+
+
+- Generating browser application bundles...
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names |     Size
+main.js             | main  | 42.38 kB
+
+5 unchanged chunks
+
+Build at: 2021-02-15T18:28:05.161Z - Hash: 58ee81afa68cf3d86acb - Time: 813ms
+
+✔ Compiled successfully.

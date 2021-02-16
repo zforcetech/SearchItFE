@@ -7,7 +7,24 @@ import { PilotComponent } from './content/pilot/pilot.component';
 import { MatterComponent } from './content/matter/matter.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule, APP_INITIALIZER } from '@angular/core';
-import { KeycloakService } from './keycloak.service';
+import { AuthService } from "./service/auth.service";
+import { KeycloakService } from 'keycloak-angular';
+
+// function initializeKeycloak(keycloak: KeycloakService) {
+//   return () =>
+//     keycloak.init({
+//       config: {
+//         url: 'https://152.67.162.208:8443/auth',
+//         realm: 'master',
+//         clientId: 'searchItFE',
+//       },
+//       // initOptions: {
+//         // onLoad: 'check-sso',
+//         // silentCheckSsoRedirectUri:
+//         //   window.location.origin + '/assets/silent-check-sso.html',
+//       // },
+//     });
+// }
 
 
 
@@ -24,17 +41,18 @@ import { KeycloakService } from './keycloak.service';
     MDBBootstrapModule.forRoot(),
     HttpClientModule
   ],
-  providers: [ KeycloakService,
-    {
-      provide: APP_INITIALIZER,
-      useFactory: kcFactory,
-      deps: [KeycloakService],
-      multi: true
-    }],
+  providers: [
+//     AuthService,
+// KeycloakService,
+//     {
+//       provide: APP_INITIALIZER,
+//       useFactory: initializeKeycloak,
+//       multi: true,
+//       deps: [KeycloakService],
+    // }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
 
-export function kcFactory(keycloakService: KeycloakService) {
-  return () => keycloakService.init();
-}
+
